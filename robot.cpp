@@ -20,3 +20,16 @@ void Robot::print_info()
     cout << "Version: " << version << endl;
     cout << "Internal temperature: " << internal_temperature << endl;
 }
+
+RobotArm::RobotArm(string name, int version, double reach)
+    : Robot(name, version), reach(reach)
+{
+}
+void RobotArm::pick_object(double x, double y)
+{
+    cout << "Picking up object at position (" << x << ", " << y << ")" << endl;
+}
+void RobotArm::drop_object(double x, double y)
+{
+    cout << "Dropping object at position (" << x << ", " << y << ")" << endl;
+}

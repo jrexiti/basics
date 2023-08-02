@@ -21,4 +21,15 @@ private:
     int version;
     double internal_temperature;
 };
+
+class RobotArm : public Robot
+{
+public:
+    RobotArm(string name, int version, double reach);
+    void pick_object(double x, double y);
+    void drop_object(double x, double y);
+
+private:
+    double reach;
+};
 #endif
