@@ -5,7 +5,7 @@ g++ input_file_name.cpp -o output_file_name
 
 to complie multiple files" 
 
-g++ input_file_name.cpp  file_name2.cpp -o output_file_name -o output_file_name
+g++ input_file_name.cpp  file_name2.cpp -o output_file_name
 
 
 you can name the compiled file anything...
