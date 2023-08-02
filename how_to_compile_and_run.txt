@@ -1,0 +1,20 @@
+first navigate to file
+To compile a single C++ file, use the following command (using GCC as an example):
+
+g++ input_file_name.cpp -o output_file_name
+
+to complie multiple files" 
+
+g++ input_file_name.cpp  file_name2.cpp -o output_file_name -o output_file_name
+
+
+you can name the compiled file anything...
+
+------------------------------------------------------
+
+to run compiled file, navigate to file and run:
+
+./file_name
+
+------------------------------------------------------
+
