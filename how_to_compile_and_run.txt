@@ -1,3 +1,6 @@
+Non fancy  basic way for beginner
+
+
 first navigate to file
 To compile a single C++ file, use the following command (using GCC as an example):
 
