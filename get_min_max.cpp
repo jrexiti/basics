@@ -64,14 +64,22 @@ int get_min_val_range_based(vector<int> num_list)
     return min_val;
 }
 
-int main()
+vector<int> get_user_input()
 {
+    vector<int> list(4);
 
-    vector<int> num_list(4);
-    num_list.at(0) = 5;
-    num_list.at(1) = 3;
-    num_list.at(2) = 33;
-    num_list.at(3) = 1;
+    for (int i = 0; i < list.size(); i++)
+    {
+        cout << "Enter a number: ";
+        cin >> list.at(i);
+    }
+    return list;
+}
+
+int main()
+
+{
+    vector<int> num_list = get_user_input();
 
     cout << get_max_val(num_list) << endl;
     cout << get_min_val(num_list) << endl;
