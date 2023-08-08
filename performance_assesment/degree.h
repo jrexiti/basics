@@ -4,7 +4,8 @@ enum class DegreeProgram
 {
     SECURITY,
     NETWORK,
-    SOFTWARE
+    SOFTWARE,
+    UNASSIGNED
 };
 
-static const std::string degreeProgramStrings[] = {"SECURITY", "NETWORK", "SOFTWARE"};
+static const std::string degreeProgramStrings[] = {"SECURITY", "NETWORK", "SOFTWARE", "UNASSIGNED"};
