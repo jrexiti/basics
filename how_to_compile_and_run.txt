@@ -1,5 +1,7 @@
 Non fancy  basic way for beginner
 
+note: you dont compile .h or .hpp files directly, they are compiled throught the .cpp using them.
+
 
 first navigate to file
 To compile a single C++ file, use the following command (using GCC as an example):
@@ -21,3 +23,11 @@ to run compiled file, navigate to file and run:
 
 ------------------------------------------------------
 
+
+compile and run C867 PA 
+
+cd performance_assesment 
+g++ -o compiledFile *.cpp
+
+
+------------------------------------------------------

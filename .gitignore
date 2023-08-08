@@ -5,11 +5,5 @@ bins
 gens
 libs
 objs
-main
-user_input
-functions
-conditionals_and_loops
-get_min_max
-function_prototypes
-my_header
-classes_and_objects
+compiledFile
+performance_assesment/compiledFile
