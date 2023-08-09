@@ -1,11 +1,14 @@
-#include <string>
+#include <iostream>
+#ifndef DEGREE_H
+#define DEGREE_H
 
-enum class DegreeProgram
+using namespace std;
+
+enum DegreeProgram
 {
     SECURITY,
     NETWORK,
-    SOFTWARE,
-    UNASSIGNED
+    SOFTWARE
 };
 
-static const std::string degreeProgramStrings[] = {"SECURITY", "NETWORK", "SOFTWARE", "UNASSIGNED"};
+#endif
