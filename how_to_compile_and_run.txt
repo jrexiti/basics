@@ -28,6 +28,7 @@ compile and run C867 PA
 
 cd performance_assesment 
 g++ -o compiledFile *.cpp
+./compiledFile
 
 
 ------------------------------------------------------
