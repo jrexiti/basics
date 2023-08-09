@@ -15,7 +15,7 @@ Student::Student()
     this->daysInCourse[0] = 0;
     this->daysInCourse[1] = 0;
     this->daysInCourse[2] = 0;
-    this->degreeProgram;
+    // this->degreeProgram;
 }
 // parameter constructor
 
