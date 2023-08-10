@@ -10,8 +10,8 @@ int main()
     cout << "Address of n: " << &n << endl;
     cout << "Value of n: " << n << endl;
     cout << "Value of p: " << p << endl;
-    cout << "Value of *p: " << *p << " (dereferencing p)"
-         << "  *p = value of whatever p is pointing to (using the '*' dereference operator)" << endl;
+    cout << "Value of (dereferencing p, value of what it's pointing to) *p: " << *p << endl;
+    cout << "Value of &p aka memory address of the pointer itself : " << &p << endl;
 
     cout << "-------------------" << endl;
 
